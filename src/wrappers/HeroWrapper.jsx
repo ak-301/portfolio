@@ -49,6 +49,18 @@ const HeroWrapper = () => {
                 About
               </Badge>
             </Link>
+            <Link to="experience" smooth={true} duration={500}>
+              <Badge
+                // colorPalette={"green"}
+                bgColor={"whiteAlpha.400"}
+                color={"orange"}
+                size={"xl"}
+                p={2}
+                cursor={"pointer"}
+              >
+                Experience
+              </Badge>
+            </Link>
             <Link to="projects" smooth={true} duration={500}>
               <Badge
                 // colorPalette={"green"}

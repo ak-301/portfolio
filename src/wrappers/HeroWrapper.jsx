@@ -33,7 +33,7 @@ const HeroWrapper = () => {
           justifyContent={"center"}
           alignItems={"center"}
         >
-          <Heading fontSize={60}>HEY BHADWE TMKC!</Heading>
+          <Heading fontSize={60}>HELLO!</Heading>
           <Heading fontSize={50}>I'M ANIKET KUMAR</Heading>
           <Heading fontSize={40}>A Scientist for Data</Heading>
           <Group>

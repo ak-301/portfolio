@@ -34,7 +34,7 @@ const AboutWrapper = () => {
       gap={10}
     >
       <Box width={"50%"} display={"flex"} flexDir={"column"} gap={10}>
-        <Heading fontSize={40}>Who's the guy on stage?</Heading>
+        <Heading fontSize={40}>WHO'S THE GUY ON STAGE?</Heading>
         <Text fontSize={14}>
           Hi, I'm Aniket Kumar, a passionate and versatile Data Science
           post-graduate student at Stony Brook University with a strong

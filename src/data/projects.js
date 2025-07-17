@@ -16,7 +16,7 @@ const Projects = [
       "mpact: This solution can assist healthcare professionals in early identification of high-risk patients, enabling timely intervention and potentially saving lives.",
       "Tech Stack: Python, Pandas, Scikit-learn, XGBoost, Flask (for deployment), Matplotlib/Seaborn (for EDA & visualization)",
     ],
-    link: "https://aniketkumar.info",
+    link: "https://github.com/ak-301/Heart-Stroke-Prediction",
   },
   {
     image:
@@ -32,7 +32,7 @@ const Projects = [
       "Business Application: The system can be integrated into customer service dashboards to identify dissatisfied users in real-time, enabling targeted responses and customer segmentation based on sentiment behavior.",
       "Tech Stack: Python, TensorFlow/Keras, Flask, Pandas, LSTM, REST API, CORS",
     ],
-    link: "https://aniketkumar.info",
+    link: "https://github.com/ak-301/Customer-sentiment-analysis",
   },
   {
     image:
@@ -48,7 +48,7 @@ const Projects = [
       "Key Features: Real-time voice interaction, Dynamic greetings based on the time of day, Integration with online platforms (YouTube, Google, Wikipedia)",
       "Tech Stack: Python, pyttsx3, SpeechRecognition, Wikipedia API, PyWhatKit, Webbrowser, Datetime",
     ],
-    link: "https://aniketkumar.info",
+    link: "https://github.com/ak-301/Python-Jarvis",
   },
   {
     image:
@@ -66,12 +66,12 @@ const Projects = [
       "Volume Control: Implements gesture-based volume control by measuring distance between fingers",
       "Tech Stack: Python, OpenCV, MediaPipe, NumPy, Visual Studio Code",
     ],
-    link: "https://aniketkumar.info",
+    link: "https://github.com/ak-301/ComputerVision",
   },
   {
     image:
       "https://res.cloudinary.com/ducnpwkjo/image/upload/v1752565450/NailArt_pyq3om.png",
-    title: "Nail Art Booking System",
+    title: "Nail Art Appointment System",
     shortDesc:
       "The NailArt-Booking-System is a backend web application built using Node.js, Express.js, and MongoDB, designed to manage appointment bookings for a nail art studio. This RESTful API handles appointment creation, storage, and retrieval efficiently, ensuring smooth coordination between customers and the business.",
     description: [
@@ -83,6 +83,7 @@ const Projects = [
       "Environment Flexibility: Includes dotenv configuration for port management and secure deployment",
       "Tech Stack: Node.js, Express.js, MongoDB, Mongoose, CORS, dotenv",
     ],
+    link: "https://github.com/ak-301/NailArt-appointment-System-Backend"
   },
   {
     image:
@@ -97,7 +98,7 @@ const Projects = [
       "Responsive Design: Layout adapts to different screen sizes using MediaQuery and Stack positioning for precision UI placement.",
       "Tech Stack: Frontend: Flutter (Dart), UI Components: Material Design widgets, Stack, Positioned, Container, AppBar, and Buttons",
     ],
-    link: "https://aniketkumar.info",
+    link: "https://github.com/ak-301/intelli-lock",
   },
   {
     image:
@@ -121,7 +122,7 @@ const Projects = [
 
       "Tools: Django Admin, ORM, Django Templates (for frontend views)",
     ],
-    link: "https://aniketkumar.info",
+    link: "https://github.com/ak-301/mhealth",
   },
   {
     image:
@@ -141,7 +142,7 @@ const Projects = [
       "Frontend: Flutter (Dart)",
       "Architecture: Modular screens and reusable components",
     ],
-    link: "https://aniketkumar.info",
+    link: "https://github.com/ak-301/traffport",
   },
 
   {
@@ -160,7 +161,7 @@ const Projects = [
       "Use Cases: Smart control of home lighting or appliances, Assistive tech for elderly or disabled users, Educational prototype for IoT + mobile integration",
       "Tech Stack: Frontend: Flutter (Dart),Communication: Bluetooth Serial via flutter_bluetooth_serial, Architecture: Modular and stateful widgets for flexibility and scalability, Hardware Integration: Compatible with Arduino, ESP32, or other Bluetooth-enabled controllers",
     ],
-    link: "https://aniketkumar.info",
+    link: "https://github.com/ak-301/intelli-home",
   },
 ];
 

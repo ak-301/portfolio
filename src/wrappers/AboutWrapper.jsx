@@ -30,12 +30,19 @@ const AboutWrapper = () => {
       alignItems={"flex-end"}
       backgroundImage={`url(${AboutBG})`}
       backgroundSize={"cover"}
-      backgroundPosition={"bottom"}
+      backgroundPosition={{ base: "bottom", xs: "left" }}
       gap={10}
     >
-      <Box width={"50%"} display={"flex"} flexDir={"column"} gap={10}>
-        <Heading fontSize={40}>Who's the guy on stage?</Heading>
-        <Text fontSize={14}>
+      <Box
+        width={{ sm: "65%", lg: "50%" }}
+        display={"flex"}
+        flexDir={"column"}
+        gap={10}
+        justifyContent={"center"}
+        // alignItems={"center"}
+      >
+        <Heading fontSize={{ sm: 20, lg: 30 }}>Who's the guy on stage?</Heading>
+        <Text fontSize={8}>
           Hi, I'm Aniket Kumar, a passionate and versatile Data Science
           post-graduate student at Stony Brook University with a strong
           foundation in software development, machine learning, and cloud
@@ -57,28 +64,28 @@ const AboutWrapper = () => {
           streaming on Twitch, solving chess puzzles, or vibing to music with
           friends, because I believe creativity is just as important as logic.
         </Text>
-        <Group>
-          <DiReact size={30} />
-          <DiPython size={30} />
-          <DiJavascript size={30} />
-          <DiCss3 size={30} />
-          <DiDatabase size={30} />
-          <DiDart size={30} />
-          <DiAws size={30} />
-          <DiLinux size={30} />
-          <DiGit size={30} />
-          <DiFirebase size={30} />
+        <Group display={"flex"} flexWrap={"wrap"}>
+          <DiReact size={20} />
+          <DiPython size={20} />
+          <DiJavascript size={20} />
+          <DiCss3 size={20} />
+          <DiDatabase size={20} />
+          <DiDart size={20} />
+          <DiAws size={20} />
+          <DiLinux size={20} />
+          <DiGit size={20} />
+          <DiFirebase size={20} />
+          <Button
+            onClick={() =>
+              window.open(
+                "https://res.cloudinary.com/ducnpwkjo/raw/upload/v1752580558/RESUME_ANIKET_KUMAR_bm7glq.docx",
+                "_blank"
+              )
+            }
+          >
+            Resume
+          </Button>
         </Group>
-        <Button
-          onClick={() =>
-            window.open(
-              "https://res.cloudinary.com/ducnpwkjo/raw/upload/v1752580558/RESUME_ANIKET_KUMAR_bm7glq.docx",
-              "_blank"
-            )
-          }
-        >
-          Resume
-        </Button>
       </Box>
     </Box>
   );

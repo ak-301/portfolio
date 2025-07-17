@@ -14,8 +14,8 @@ const CustomCard = ({ index, image, title, shortDesc, description, link }) => {
   return (
     <Card.Root
       border={"4px solid gold"}
-      maxW="sm"
-      minH={"65vh"}
+      maxW={{ base: "md", lg: "sm" }}
+      minH={{ base: "50vh", lg: "65vh" }}
       overflow="hidden"
       display="flex"
       flexDirection="column"

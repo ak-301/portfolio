@@ -5,7 +5,7 @@ import Projects from "../data/projects";
 
 const ProjectWrapper = () => {
   return (
-    <Box p={20} display={"flex"} gap={10} flexDir={"column"}>
+    <Box p={{ base: 10, lg: 20 }} display={"flex"} gap={10} flexDir={"column"}>
       <Heading fontSize={40}>Projects</Heading>
       <Box
         display={"flex"}

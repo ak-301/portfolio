@@ -27,22 +27,24 @@ const HeroWrapper = () => {
           //   bgColor={"white"}
           display={"flex"}
           flexDirection={"column"}
-          gap={10}
+          gap={{ base: 5, lg: 8 }}
           // border={"10px solid green"}
-          p={20}
+          p={{ base: 10, lg: 20 }}
           justifyContent={"center"}
           alignItems={"center"}
         >
-          <Heading fontSize={60}>HELLO!</Heading>
-          <Heading fontSize={50}>I'M ANIKET KUMAR</Heading>
-          <Heading fontSize={40}>A Scientist for Data</Heading>
+          <Heading fontSize={{ base: 40, lg: 50 }}>HELLO!</Heading>
+          <Heading fontSize={{ base: 30, lg: 40 }}>I'M ANIKET KUMAR</Heading>
+          <Heading fontSize={{ base: 30, lg: 40 }}>
+            A Scientist for Data
+          </Heading>
           <Group>
             <Link to="about" smooth={true} duration={500}>
               <Badge
                 // colorPalette={"green"}
                 bgColor={"whiteAlpha.400"}
                 color={"orange"}
-                size={"xl"}
+                size={{ base: "sm", lg: "lg" }}
                 p={2}
                 cursor={"pointer"}
               >
@@ -54,7 +56,7 @@ const HeroWrapper = () => {
                 // colorPalette={"green"}
                 bgColor={"whiteAlpha.400"}
                 color={"orange"}
-                size={"xl"}
+                size={{ base: "sm", lg: "lg" }}
                 p={2}
                 cursor={"pointer"}
               >
@@ -66,7 +68,7 @@ const HeroWrapper = () => {
                 // colorPalette={"green"}
                 bgColor={"whiteAlpha.400"}
                 color={"orange"}
-                size={"xl"}
+                size={{ base: "sm", lg: "lg" }}
                 p={2}
                 cursor={"pointer"}
               >
@@ -78,7 +80,7 @@ const HeroWrapper = () => {
                 // colorPalette={"green"}
                 bgColor={"whiteAlpha.400"}
                 color={"orange"}
-                size={"xl"}
+                size={{ base: "sm", lg: "lg" }}
                 p={2}
                 cursor={"pointer"}
               >

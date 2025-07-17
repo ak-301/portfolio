@@ -12,9 +12,9 @@ import { BsArrow90DegDown } from "react-icons/bs";
 const ExperienceWrapper = () => {
   const [value, setValue] = useState(["first-item"]);
   return (
-    <Box p={20}>
+    <Box p={{ base: 8, lg: 20 }}>
       <Stack gap="4">
-        <Heading fontSize={40}>Experience</Heading>
+        <Heading fontSize={{ base: 30, lg: 40 }}>Experience</Heading>
         <Accordion.Root
           value={value}
           onValueChange={(e) => setValue(e.value)}
@@ -41,9 +41,21 @@ const ExperienceWrapper = () => {
                   fontWeight={"semibold"}
                   display={"flex"}
                   justifyContent={"space-between"}
+                  fontSize={{ base: 10, lg: 14 }}
                 >
-                  <Text>{item.title}</Text>
-                  <Text>{item.date}</Text>
+                  <Text
+                    width={{ base: "60%", lg: "50%" }}
+                    lineHeight={{ base: 1.3, lg: 1.5 }}
+                  >
+                    {item.title}
+                  </Text>
+                  <Text
+                    textAlign={"right"}
+                    width={{ base: "30%", lg: "50%" }}
+                    lineHeight={{ base: 1.3, lg: 1.5 }}
+                  >
+                    {item.date}
+                  </Text>
                 </Span>
                 <Accordion.ItemIndicator />
               </Accordion.ItemTrigger>
@@ -51,7 +63,8 @@ const ExperienceWrapper = () => {
                 <Accordion.ItemBody>
                   {item.text.map((desc, idx) => (
                     <Box display={"flex"} alignItems={"flex-start"} gap={3}>
-                      <BiRightArrowCircle /> <Text>{desc}</Text>
+                      <BiRightArrowCircle />{" "}
+                      <Text fontSize={{ base: 10, lg: 12 }}>{desc}</Text>
                     </Box>
                   ))}
                 </Accordion.ItemBody>
@@ -67,7 +80,7 @@ const ExperienceWrapper = () => {
 const items = [
   {
     value: "first-item",
-    title: "Teaching Associate",
+    title: "Teaching Assistant",
     date: "Dec 2024 - July 2025",
     text: [
       "Delivered foundational and advanced concepts in Computer Science, including Python programming, data structures, SQL, and web development",
@@ -80,7 +93,7 @@ const items = [
   {
     value: "second-item",
     date: "Jul 2023 - Nov 2024",
-    title: "Trainee Engineer — NTT DATA Pvt. Ltd., Mumbai",
+    title: "Trainee Engineer - NTT DATA Pvt. Ltd., Mumbai",
     text: [
       "Developed and optimized Python scripts to automate data processing and reporting workflows, significantly reducing manual effort and improving efficiency.",
 

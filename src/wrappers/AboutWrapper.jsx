@@ -41,8 +41,10 @@ const AboutWrapper = () => {
         justifyContent={"center"}
         // alignItems={"center"}
       >
-        <Heading fontSize={{ sm: 20, lg: 30 }}>Who's the guy on stage?</Heading>
-        <Text fontSize={8}>
+        <Heading fontSize={{ base: 30, sm: 20, md: 30, lg: 40 }}>
+          Who's the guy on stage?
+        </Heading>
+        <Text fontSize={{ base: 8, sm: 8, md: 12 }} textAlign={"justify"}>
           Hi, I'm Aniket Kumar, a passionate and versatile Data Science
           post-graduate student at Stony Brook University with a strong
           foundation in software development, machine learning, and cloud
@@ -78,7 +80,7 @@ const AboutWrapper = () => {
           <Button
             onClick={() =>
               window.open(
-                "https://res.cloudinary.com/ducnpwkjo/raw/upload/v1752580558/RESUME_ANIKET_KUMAR_bm7glq.docx",
+                "https://drive.google.com/file/d/15g_-oytx4NAog68LEvTx0u3XYiPVUK5w/view?usp=drive_link",
                 "_blank"
               )
             }

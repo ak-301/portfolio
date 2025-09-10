@@ -45,8 +45,8 @@ const ContactWrapper = () => {
               gap={2}
             >
               <PiPhone />
-              <span style={{ fontWeight: "bold" }}>Call Me:</span>{" "}
-              +91-7758081301
+              <span style={{ fontWeight: "bold" }}>Call Me:</span> +1 (934)
+              255-2783
             </Text>
             <Text
               bgColor={"beige"}
@@ -72,7 +72,7 @@ const ContactWrapper = () => {
             >
               <BiMailSend />
               <span style={{ fontWeight: "bold" }}>Mail Me:</span>{" "}
-              aniket0130ak@gmail.com
+              aniketpravin.kumar@stonybrook.edu
             </Text>
           </Box>
         </Box>

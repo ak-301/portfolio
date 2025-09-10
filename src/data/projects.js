@@ -3,20 +3,21 @@ import Aniket from "../assets/Aniket.png";
 const Projects = [
   {
     image:
-      "https://res.cloudinary.com/ducnpwkjo/image/upload/v1752561831/Heart_Stroke_Prediction_biijx7.png",
-    title: "Heart Stroke Prediction",
+      "https://ezranking.s3.eu-west-2.amazonaws.com/blog/wp-content/uploads/2022/06/10115059/Customer-Segmentation.jpg",
+    title: "Customer Segmentation",
     shortDesc:
-      "This project aims to predict the likelihood of a person experiencing a heart stroke based on key health and demographic parameters. Using a supervised machine learning approach, the model identifies at-risk individuals by learning patterns from historical medical data.",
+      "This project aims to segment customers based on their purchasing behavior using clustering techniques. By analyzing transaction data, the model identifies distinct customer groups to help businesses tailor marketing strategies and improve customer retention.",
     description: [
-      "This project aims to predict the likelihood of a person experiencing a heart stroke based on key health and demographic parameters. Using a supervised machine learning approach, the model identifies at-risk individuals by learning patterns from historical medical data.",
-      "Data Handling: The dataset includes features like age, hypertension, heart disease history, BMI, smoking status, glucose levels, and more.",
-      "Modeling: Various classification algorithms such as Logistic Regression, Random Forest, and XGBoost were evaluated. The best-performing model was selected based on metrics like accuracy, precision, recall, and AUC-ROC.",
-      "Feature Engineering: Missing values were handled, categorical variables were encoded, and features were normalized for optimal model performance.",
-      "Deployment: The final model can be integrated into a healthcare web app or system to provide real-time stroke risk assessments.",
-      "mpact: This solution can assist healthcare professionals in early identification of high-risk patients, enabling timely intervention and potentially saving lives.",
-      "Tech Stack: Python, Pandas, Scikit-learn, XGBoost, Flask (for deployment), Matplotlib/Seaborn (for EDA & visualization)",
+      "This project aims to segment customers based on their purchasing behavior using clustering techniques. By analyzing transaction data, the model identifies distinct customer groups to help businesses tailor marketing strategies and improve customer retention.",
+      "Data Preprocessing: The dataset is cleaned and preprocessed to handle missing values, normalize features, and prepare it for clustering.",
+      "Clustering Techniques: Various clustering algorithms such as K-Means, Hierarchical Clustering, and DBSCAN are applied to identify customer segments.",
+      "Model Evaluation: The optimal number of clusters is determined using methods like the Elbow Method and Silhouette Score.",
+      "Visualization: The results are visualized using scatter plots and cluster heatmaps to interpret the characteristics of each customer segment.",
+      "Business Application: The segmented data can be used for targeted marketing campaigns, personalized offers, and improved customer service.",
+      "Tech Stack: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn",
     ],
-    link: "https://github.com/ak-301/Heart-Stroke-Prediction",
+
+    link: "https://github.com/ak-301/Customer-Segmentation",
   },
   {
     image:
@@ -83,7 +84,7 @@ const Projects = [
       "Environment Flexibility: Includes dotenv configuration for port management and secure deployment",
       "Tech Stack: Node.js, Express.js, MongoDB, Mongoose, CORS, dotenv",
     ],
-    link: "https://github.com/ak-301/NailArt-appointment-System-Backend"
+    link: "https://github.com/ak-301/NailArt-appointment-System-Backend",
   },
   {
     image:
